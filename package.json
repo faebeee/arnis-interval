@@ -1,0 +1,39 @@
+{
+  "name": "vue-app-skeleton",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faebeee/vueapp-skeleton.git"
+  },
+  "author": "faebeee <faebeee@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faebeee/vueapp-skeleton/issues"
+  },
+  "homepage": "https://github.com/faebeee/vueapp-skeleton#readme",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "bluebird": "^3.4.6",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-minify": "0.0.15",
+    "gulp-sass": "^3.0.0",
+    "gulp-uglifycss": "^1.0.6",
+    "vue": "^2.1.10",
+    "vue-i18n": "^5.0.2",
+    "vue-resource": "^1.1.1",
+    "vue-router": "^2.2.0",
+    "vue-translate-plugin": "^1.2.0",
+    "vueify": "^9.4.0",
+    "uuid": "^3.0.1"
+  },
+  "dependencies": {
+    "text-to-speech-js": "^1.1.6"
+  }
+}
