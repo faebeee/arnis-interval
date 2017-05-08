@@ -44,8 +44,8 @@
                             </div>
                             <div class="row">
                                     <div class="input-field col s12">
-                                        <select multiple>
-                                            <option v-for="step in steps" value="step" selected>{{step}}</option>
+                                        <select ref="steps" multiple>
+                                            <option v-for="step in allSteps" :value="step" selected>{{step}}</option>
                                         </select>
                                         <label>Steps</label>
                                     </div>
@@ -79,6 +79,7 @@
         data(){
             return {
                 interval : null,
+                allSteps : ["Isa", "Dalawa", "Tatlo", "Apat", "Lima", "Anim",'Pito', 'Walo', 'Shiam', 'Sampo'],
                 steps : ["Isa", "Dalawa", "Tatlo", "Apat", "Lima", "Anim",'Pito', 'Walo', 'Shiam', 'Sampo'],
                 currentStep : 0,
                 timeout : 2,
@@ -88,9 +89,7 @@
         },
 
         mounted(){
-            $(document).ready(function() {
-                $('select').material_select();
-            });
+            $(this.$refs.steps).material_select();
         },
 
         methods : {
@@ -104,7 +103,9 @@
                     this.showStep = false;
                     this.update();
 
-                }, this.timeout*1000)
+                }, this.timeout*1000);
+
+                this.steps = $(this.$refs.steps).val();
             },
 
             update(){
