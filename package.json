@@ -34,6 +34,7 @@
     "uuid": "^3.0.1"
   },
   "dependencies": {
+    "node-static": "^0.7.9",
     "text-to-speech-js": "^1.1.6"
   }
 }
