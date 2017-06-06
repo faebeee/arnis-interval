@@ -1,1 +1,1 @@
-web: ./node_modules/.bin/static -p $PORT
+web: PORT=$PORT npm run start
