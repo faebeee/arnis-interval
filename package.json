@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start" : "./node_modules/.bin/static -p $PORT"
+    "start": "node Server"
   },
   "repository": {
     "type": "git",
@@ -35,7 +35,10 @@
     "uuid": "^3.0.1"
   },
   "dependencies": {
+    "hapi": "^16.4.1",
+    "inert": "^4.2.0",
     "node-static": "^0.7.9",
-    "text-to-speech-js": "^1.1.6"
+    "text-to-speech-js": "^1.1.6",
+    "vuex": "^2.3.1"
   }
 }

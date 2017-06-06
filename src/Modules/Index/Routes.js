@@ -1,15 +1,13 @@
 'use strict';
 
 import Index from './Index.vue';
-import Home from './Home.vue';
-import Welcome from './Welcome.vue';
+import Interval from './Interval.vue';
 
 module.exports = {
     path: '/',
     name : 'index',
     component: Index,
     children : [
-        { path: '/', name: 'home', component: Home },
-        { path: '/welcome', name: 'welcome', component: Welcome },
+        { path: '/', name: 'home', component: Interval },
     ]
 };

@@ -3,9 +3,6 @@
         <div class="col s12">
             <div class="row">
                 <div class="col s12">
-
-
-
                     <transition name="fade">
                     <div class="col s12" v-if="interval">
                         <h2 v-if="showStep">{{ steps[currentStep] }}</h2>
