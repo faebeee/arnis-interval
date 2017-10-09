@@ -44,7 +44,7 @@
 
         data(){
             return {
-                allSteps : ["Isa", "Dalawa", "Tatlo", "Apat", "Lima", "Anim",'Pito', 'Walo', 'Shiam', 'Sampo'],
+                allSteps : ["Isa", "Dalawa", "Tatlo", "Apat", "Lima", "Anim",'Pito', 'Walo', 'Siyam', 'Sampu'],
             }
         },
 
