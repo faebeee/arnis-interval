@@ -72,7 +72,6 @@
         },
 
         mounted() {
-            $(this.$refs.steps).material_select();
             this.selectedSteps = this.allSteps.join(', ');
         },
 
